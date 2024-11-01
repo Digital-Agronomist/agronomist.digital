@@ -5,26 +5,25 @@ import { SiteConfig, ContactConfig } from "@/types"
 -- Fill the details about your website
  ==================== */
 
-const baseUrl = "https://nextlanding.rdev.pro"
+const baseUrl = "https://agronomist.digital"
 
 export const siteConfig: SiteConfig = {
   name: "The Digital Agronomist",
-  author: "redpangilinan",
+  author: "Juan Roa",
   description:
-    "Easy to setup, customizable, quick, and responsive landing page starter built with Next.js and shadcn/ui.",
+    "Transforming agricultural data into actionable insights through advanced analytics.",
   keywords: [
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Radix UI",
-    "shadcn/ui",
-    "Landing Page",
-    "Template",
-    "Starter",
+    "Agronomy",
+    "precision agriculture",
+    "Machine Learning",
+    "Agro Tech",
+    "Soil Net LLC",
+    "Soil sience",
+    "Agriculture",
   ],
   url: {
     base: baseUrl,
-    author: "https://redpangilinan.live",
+    author: "https://juanroa.dev",
   },
   ogImage: `${baseUrl}/og.jpg`,
 }
